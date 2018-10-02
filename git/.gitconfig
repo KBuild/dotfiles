@@ -1,0 +1,11 @@
+[alias]
+  st = status
+  di = diff
+  dic = diff --cached
+  ci = commit
+  br = branch
+  co = checkout
+  dmb = "!f () { git checkout $1; git branch --merged|egrep -v '\\*|develop|master'|xargs git branch -d; };f"
+[user]
+	name = KBuild
+	email = qwer7995@gmail.com
