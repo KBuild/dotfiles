@@ -5,6 +5,7 @@ set smartindent
 set tabstop=2
 set shiftwidth=2
 set expandtab
+set ruler
 
 noremap ; :
 noremap : ;
@@ -25,6 +26,9 @@ Plugin 'tpope/vim-ragtag'
 Plugin 'dbeniamine/cheat.sh-vim'
 Plugin 'racer-rust/vim-racer'
 Plugin 'ervandew/supertab'
+Plugin 'kit494way/docker.vim'
+Plugin 'kien/ctrlp.vim'
+Plugin 'scrooloose/nerdtree'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
